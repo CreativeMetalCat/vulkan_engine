@@ -6,12 +6,6 @@
 class actor
 {
 public:
-	VkImage texture;
-	VkImageView textureView;
-	VkDeviceMemory textureMemory;
-	BufferInfo vertexBufferInfo;
-	BufferInfo indexBufferInfo;
-	std::string texturePath;
 
 	void addVertices(std::vector<Vertex> &_vertices)
 	{
